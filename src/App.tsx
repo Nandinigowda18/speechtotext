@@ -1,5 +1,4 @@
 // src/App.tsx
-// src/App.tsx
 import RecorderControls from "./components/RecorderControls";
 
 function App() {
@@ -7,7 +6,7 @@ function App() {
     <div
       style={{
         minHeight: "100vh",
-        background: "linear-gradient(135deg, #020617, #020617, #0f172a)",
+        background: "linear-gradient(135deg, #020617, #0f172a)",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
@@ -19,10 +18,8 @@ function App() {
         <h1
           style={{
             textAlign: "center",
-            marginBottom: "12px",
+            marginBottom: "10px",
             color: "#f8fafc",
-            fontSize: "2.2rem",
-            fontWeight: 700,
           }}
         >
           Wispr Flow
@@ -31,12 +28,11 @@ function App() {
         <p
           style={{
             textAlign: "center",
-            marginBottom: "32px",
+            marginBottom: "28px",
             color: "#94a3b8",
-            fontSize: "1rem",
           }}
         >
-          Speak naturally. Convert voice to text instantly.
+          Simple voice-to-text powered by AI
         </p>
 
         <RecorderControls />
